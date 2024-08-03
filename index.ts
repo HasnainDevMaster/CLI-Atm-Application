@@ -117,7 +117,9 @@ async function main() {
         }
         break;
       case "Exit":
-        console.log(chalk.green("Thank you for using the ATM. Have a great day!"));
+        console.log(
+          chalk.green("Thank you for using the ATM. Have a great day!")
+        );
         return;
     }
   }
