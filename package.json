@@ -1,0 +1,23 @@
+{
+  "name": "mrshas-atm-application",
+  "version": "1.0.0",
+  "description": "This is a CLI based ATM application",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cli", "atm", "application","typescript","nodejs","inquirer"],
+  "author": "mrshas",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+}
