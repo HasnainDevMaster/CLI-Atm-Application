@@ -2,6 +2,7 @@
 
 // npm install inquirer
 import inquirer from "inquirer";
+import chalk from "chalk";
 
 // Initial account balance
 let balance = 10000;
@@ -11,7 +12,7 @@ const userPin = "9595";
 const prompt = inquirer.createPromptModule();
 
 async function main() {
-  console.log("Welcome to the ATM Application!");
+  console.log(chalk.magenta("Welcome to the ATM Application!"));
 
   // Ask the user to enter their PIN
   const { enteredPin } = await prompt({
@@ -45,7 +46,7 @@ async function main() {
 
     switch (action) {
       case "Check Balance":
-        console.log(`Your current balance: $${balance}`);
+        console.log(chalk.green(`Your current balance: $${balance}`));
         break;
       case "Deposit":
         // Prompt user for deposit amount and validate input
@@ -64,7 +65,9 @@ async function main() {
 
         // Update balance after deposit
         balance += parseFloat(depositAmount);
-        console.log(`Deposited $${depositAmount}. New balance: $${balance}`);
+        console.log(
+          chalk.yellow(`Deposited $${depositAmount}. New balance: $${balance}`)
+        );
         break;
       case "Withdraw":
         // Prompt user for withdrawal amount and validate input
@@ -87,7 +90,9 @@ async function main() {
 
         // Decrease the balance by the withdrawn amount
         balance -= parseFloat(withdrawAmount);
-        console.log(`Withdrawn $${withdrawAmount}. New balance: $${balance}`);
+        console.log(
+          chalk.red(`Withdrawn $${withdrawAmount}. New balance: $${balance}`)
+        );
         break;
       case "Fast Cash":
         // Prompt user to select a fast cash amount
@@ -105,12 +110,14 @@ async function main() {
           // Decrease the balance by the fast cash amount
           balance -= amount;
           console.log(
-            `Fast cash withdrawn: $${amount}. New balance: $${balance}`
+            chalk.red(
+              `Fast cash withdrawn: $${amount}. New balance: $${balance}`
+            )
           );
         }
         break;
       case "Exit":
-        console.log("Thank you for using the ATM. Have a great day!");
+        console.log(chalk.green("Thank you for using the ATM. Have a great day!"));
         return;
     }
   }
