@@ -51,7 +51,7 @@ Install the dependencies by running the following command in your terminal (cmd)
 npm install
 ```
 _____________________
-**Running the Game:** ▶️
+**Running the Application:** ▶️
 _____________________
 Run the application using the command:
 ```
