@@ -1,4 +1,4 @@
-**ATM Application** 🏧
+**CLI ATM Application** 🏧
 ______________________
 Welcome to the ATM Application! This simple CLI ATM application allows users to perform basic banking actions such as checking their balance, making deposits, withdrawing cash, and selecting fast cash amounts. The application is written in Node.js and uses the inquirer packages for user input.
 _________________
