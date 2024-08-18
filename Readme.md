@@ -60,13 +60,13 @@ Simply run the following command in your terminal (cmd):
 Install:
 
 ```
-npm i mrshas-atm-application
+npm i mrshas-cli-atm-application
 ```
 
 Run:
 
 ```
-npx mrshas-atm-application
+npx mrshas-cli-atm-application
 ```
 
 _____________________
