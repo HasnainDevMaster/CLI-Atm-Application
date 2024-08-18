@@ -1,12 +1,12 @@
 {
   "name": "mrshas-cli-atm-application",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a CLI based ATM application",
   "main": "index.js",
   "type": "module",
   "bin": {
     "mrshas-cli-atm-application": "index.js"
-   },
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/HasnainDevMaster/CLI-Atm-Application.git"
