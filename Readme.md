@@ -27,6 +27,7 @@ Before running the game, ensure you have the following installed:
 **Node.js:** To run the game, you’ll need Node.js installed on your system. You can download it from https://nodejs.org.
 
 **TypeScript:** The game is written in TypeScript, so you’ll need to install TypeScript. Use the following command in your terminal:
+
 ```
 npm install -g typescript
 ```
@@ -47,19 +48,42 @@ git clone https://github.com/HasnainDevMaster/CLI-Atm-Application.git
 Ater cloning the files, navigate to the directory in which files are cloned
 
 Install the dependencies by running the following command in your terminal (cmd):
+
 ```
 npm install
 ```
+
+**Installation: NPM:** 💻
+
+Simply run the following command in your terminal (cmd):
+
+Install:
+
+```
+npm i mrshas-atm-application
+```
+
+Run:
+
+```
+npx mrshas-atm-application
+```
+
 _____________________
 **Running the Application:** ▶️
 _____________________
 Run the application using the command:
+
 ```
 tsc && node index.js
 ```
+
+**UserPin:** 9595
+
 _______________
 **Example:** 📝
 ______________
+
 ```
 Welcome to the ATM Application!
 
@@ -97,6 +121,7 @@ Fast cash withdrawn: $5000. New balance: $5000
 
 Thank you for using the ATM. Have a great day!
 ```
+
 ________________
 **Conclusion:** 🎈
 ________________

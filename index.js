@@ -1,5 +1,5 @@
 #! /usr/bin/env node
-// npm install inquirer
+// npm install inquirer and chalk
 import inquirer from "inquirer";
 import chalk from "chalk";
 // Initial account balance

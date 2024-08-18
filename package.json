@@ -4,6 +4,10 @@
   "description": "This is a CLI based ATM application",
   "main": "index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HasnainDevMaster/CLI-Atm-Application.git"
+  },
   "publishConfig": {
     "access": "public"
   },
