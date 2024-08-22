@@ -1,6 +1,6 @@
 {
   "name": "mrshas-cli-atm-application",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a CLI based ATM application",
   "main": "index.js",
   "type": "module",
