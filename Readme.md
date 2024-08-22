@@ -1,6 +1,8 @@
 **CLI ATM Application** 🏧
 ______________________
-Welcome to the ATM Application! This simple CLI ATM application allows users to perform basic banking actions such as checking their balance, making deposits, withdrawing cash, and selecting fast cash amounts. The application is written in Node.js and uses the inquirer packages for user input.
+**Welcome to the ATM Application!**
+
+This simple CLI ATM application allows users to perform basic banking actions such as checking their balance, making deposits, withdrawing cash, and selecting fast cash amounts. The application is written in **TypeScript** with **Node.js** and uses the **inquirer** packages for user input.
 _________________
 **Features:** 🌟
 _________________
@@ -22,11 +24,11 @@ ______________________
 **Prerequisites:** 🛠️
 ______________________
 
-Before running the game, ensure you have the following installed:
+Before running the application, ensure you have the following installed:
 
-**Node.js:** To run the game, you’ll need Node.js installed on your system. You can download it from https://nodejs.org.
+**Node.js:** To run the application, you’ll need Node.js installed on your system. You can download it from https://nodejs.org.
 
-**TypeScript:** The game is written in TypeScript, so you’ll need to install TypeScript. Use the following command in your terminal:
+**TypeScript:** The application is written in TypeScript, so you’ll need to install TypeScript. Use the following command in your terminal:
 
 ```
 npm install -g typescript
@@ -37,11 +39,9 @@ _____________________
 
 Clone this repository to your local directory:
 
-git clone Installation: 🚀
-
-Clone this repository to your local directory:
-
+```
 git clone https://github.com/HasnainDevMaster/CLI-Atm-Application.git
+```
 
 **Note:**
 
